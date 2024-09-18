@@ -1,0 +1,13 @@
+.inlineBlockDiv
+{
+    display: inline-block;
+    width:200px;
+    height: 100px;
+    background-color: aquamarine;
+    margin:15px;
+}
+div
+{
+
+    background-color: bisque;
+}

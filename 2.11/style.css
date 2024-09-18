@@ -1,0 +1,19 @@
+.content
+{
+    display: table;
+    border: 2px solid limegreen;
+}
+.textHolder
+{
+    display: table-cell;
+    vertical-align: top;
+    background-color: aqua;
+    width: 100%;
+}
+
+img
+{
+    display: table-cell;
+    height: 265px;
+    width: 278px;
+}

@@ -1,0 +1,66 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.left
+{
+    display: table-cell;
+    background-color: aqua;
+    width:470px;
+}
+.table
+{
+    display: table;
+    margin: 10px;
+    border: 1px solid limegreen;
+}
+
+.fluid
+{
+    background-color: darkgray;
+    display: table-cell;
+    vertical-align: top;
+}
+
+.content
+{
+    height: fit-content;
+    background-color:bisque;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+}
+
+img
+{
+    display: block;
+    width: 700px;
+    float: right;
+}
+.clearBlock
+{
+    clear: both;
+}
+
+@media (max-width:1280px)
+{
+    .clearBlock
+    {
+        clear:none;
+    }
+    img
+    {
+        width:200px;
+        height: 200px;
+    }
+    .left
+    {
+        width: fit-content;
+    }
+    .content
+    {
+        padding-right: 15px;
+    }
+}

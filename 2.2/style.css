@@ -2,6 +2,7 @@
 {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 footer
@@ -18,22 +19,24 @@ header
 
 .leftColumn
 {
-    background-color: #C8FC98;
-    flex: 0 0 25%;
-    height: fit-content;
-
+    width: 25%;
+    display: table-cell
 }
-
+.blockContent
+{
+    background-color: #C8FC98;
+    height: fit-content;
+}
 .rightColumn
 {
     background-color: #FDE95E;
-    flex: 0 0 200px;
+    display: table-cell;
+    width: 200px;
 }
 
 .content
 {
-    display: flex;
-    flex-direction: row;
+    display: table;
 }
 .contentPaddig
 {

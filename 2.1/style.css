@@ -12,8 +12,9 @@ footer
 .leftColumn
 {
     background-color: #C8FC98;
-    flex: 0 0 200px;
+    display: table-cell;
     padding: 5px;
+    width: 200px;
 }
 header
 {
@@ -23,6 +24,5 @@ header
 
 .content
 {
-    display: flex;
-    flex-direction: row;
+    display: table;
 }

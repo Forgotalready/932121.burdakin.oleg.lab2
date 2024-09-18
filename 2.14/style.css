@@ -1,0 +1,59 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.table
+{
+    display: table;
+    margin: 10px;
+    border: 1px solid limegreen;
+    background-color: aqua;
+}
+
+.fluid
+{
+    background-color: darkgray;
+    display: table-cell;
+    vertical-align: top;
+}
+
+.content
+{
+    height: fit-content;
+    background-color:bisque;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    width:470px;
+}
+
+@media (max-width:600px)
+{
+    .table, .left, .fluid 
+    {
+        display: block;
+    }
+
+    .content
+    {
+        width: 100%;
+        height: fit-content;
+        background-color: aqua;
+        padding: 0;
+        height: 36px;
+    }
+    ul
+    {
+        width: 100%;
+        list-style: none;
+        background-color: bisque;
+        padding: 0;
+        margin-top: 18px;
+    }
+    li
+    {
+        display: inline;
+    }
+}
